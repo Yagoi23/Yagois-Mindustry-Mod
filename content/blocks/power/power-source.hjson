@@ -1,0 +1,5 @@
+type: SolarGenerator
+size: 1
+powerProduction: 10000000000
+category: power
+
