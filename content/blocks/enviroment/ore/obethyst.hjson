@@ -1,3 +1,4 @@
 name: Obethyst
 type: OreBlock
+playerUnmineable: true
 itemDrop: obethyst
