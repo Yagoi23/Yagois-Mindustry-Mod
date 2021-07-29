@@ -1,0 +1,24 @@
+{
+	name: Lava Flow
+	description: Burn.
+	loadout: basicNucleus
+	    	
+	baseLaunchCost: [
+    	{"item": "copper", "amount": 100},
+    	{"item": "lead", "amount": 100},
+    	{"item": "graphite", "amount": 100},
+    ],
+	launchCost: [	
+	{"item": "copper", "amount": 500},
+    	{"item": "lead", "amount": 500},
+    	{"item": "graphite", "amount": 500},
+        ]
+    startingItems: [	       
+	{"item": "copper", "amount": 100},
+    	{"item": "lead", "amount": 100},
+    	{"item": "graphite", "amount": 100},
+    	
+    ]
+    launchPeriod: 1,
+    resources: ["copper", "lead", "coal", "sand", "titanium","thorium"]
+}
