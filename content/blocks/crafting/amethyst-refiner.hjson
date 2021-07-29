@@ -1,3 +1,4 @@
+name: Amethyst Refinery
 type: GenericCrafter
 size: 4
 hasPower: true
@@ -63,5 +64,9 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-outputItem: amethyst/1
-outputItem: obsidian/1
+outputItem: { 
+	items: [
+		amethyst/1
+		obsidian/1
+	]
+}
