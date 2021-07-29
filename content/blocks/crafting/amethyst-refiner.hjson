@@ -65,4 +65,4 @@ requirements: [
 category: crafting
 research: alloy-smelter
 outputItem: amethyst/1
-outputLiquid: obsidian-slag/1
+outputLiquid: obsidian-slag/100
