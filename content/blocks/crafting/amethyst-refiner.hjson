@@ -64,7 +64,4 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-outputItem: [
-  amethyst/1
-  obsidian/1
-]
+outputItem: amethyst/1, obsidian/1
