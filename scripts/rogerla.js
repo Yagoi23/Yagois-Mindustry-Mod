@@ -20,15 +20,7 @@ const lavaFlow = extend(SectorPreset, "lavaflow", rogerla, 1, {
     alwaysUnlocked: true
 });
 
-const corruptedlabyrinth = extend(SectorPreset, "corrupted-labyrinth", rogerla, 27, {
-    captureWave: 14,
-    localizedName: "corrupted labyrinth",
-    difficulty: 1,
-    alwaysUnlocked: true
-});
-
 module.exports = {
     rogerla: rogerla,
     lavaFlow: lavaFlow,
-	corruptedlabyrinth:corruptedlabyrinth
 }
