@@ -1,26 +1,13 @@
-// Just a little note to not forget Pixellandia :D
-//I won't forget :)
-const rogerla = extend(Planet, "rogerla", Planets.sun, 1, 0.5, {
-    generator: new SerpuloPlanetGenerator(),
-    bloom: true,
-    radius: 1,
-    accessible: true,
-    hasAtmosphere: true,
-    atmosphereColor: Color.valueOf("80ff00"),
-    atmosphereRadIn: 0.02,
-    atmosphereRadOut: 0.3,
-    localizedName: "Rogerla"
-});
-rogerla.meshLoader = () => extend(HexMesh, rogerla, 6, {});
+const rogerla = Vars.content.getByName(ContentType.planet, "yagoismod-rogerla");
 
-const lavaFlow = extend(SectorPreset, "lavaflow", rogerla, 1, {
-    captureWave: 14,
-    localizedName: "lava flow",
-    difficulty: 1,
-    alwaysUnlocked: true
-});
+const cori = new JavaAdapter(Planet, {}, "cori", rogerla, 2, 0.4);
+cori.generator = new SerpuloPlanetGenerator();
+cori.startSector = 7;
+cori.hasAtmosphere = true;
+cori.atmosphereColor = Color.valueOf("1c7fa690");
+cori.meshLoader = function(){
+  return new HexMesh(cori, 7);
+};
 
-module.exports = {
-    rogerla: rogerla,
-    lavaFlow: lavaFlow,
-}
+const lavaFlow = new JavaAdapter(SectorPreset, {}, "lavaflow", cori, 7);
+lavaFlow.captureWave = 20;
