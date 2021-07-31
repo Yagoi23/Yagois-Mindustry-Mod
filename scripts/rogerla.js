@@ -15,12 +15,20 @@ rogerla.meshLoader = () => extend(HexMesh, rogerla, 6, {});
 
 const lavaflow = extend(SectorPreset, "lavaflow", rogerla, 1, {
     captureWave: 14,
-    localizedName: "Lava Flow",
+    localizedName: "lavaflow",
+    difficulty: 1,
+    alwaysUnlocked: true
+});
+
+const corrupted-labyrinth = extend(SectorPreset, "corrupted-labyrinth", rogerla, 27, {
+    captureWave: 14,
+    localizedName: "corrupted-labyrinth",
     difficulty: 1,
     alwaysUnlocked: true
 });
 
 module.exports = {
     rogerla: rogerla,
-    lavaflow: lavaflow
+    lavaflow: lavaflow,
+	corrupted-labyrinth:corrupted-labyrinth
 }
