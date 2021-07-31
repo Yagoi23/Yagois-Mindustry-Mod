@@ -8,16 +8,15 @@ baseLaunchCost: [
 	copper/100
     ]
 launchCost: [	
-	{"item": "copper", "amount": 500},
-    	{"item": "lead", "amount": 500},
-    	{"item": "graphite", "amount": 500},
-        ]
+	copper/500
+	lead/500
+	graphite/500	
+	]
 startingItems: [	       
-	{"item": "copper", "amount": 100},
-    	{"item": "lead", "amount": 100},
-    	{"item": "graphite", "amount": 100},
-    	
+	copper/100
+	lead/100
+	graphite/100	
     ]
 launchPeriod: 1,
-resources: [copper, lead, coal, sand, titanium,thorium]
+resources: [copper, lead, coal, sand, titanium, thorium]
 
