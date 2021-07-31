@@ -16,11 +16,11 @@ Events.on(ClientLoadEvent, () => {
 
 
 
-    const antarcticaSurvival = new SectorPreset("fork", moon, 1);
-    antarcticaSurvival.captureWave = 30;
-    antarcticaSurvival.localizedName = "Fork";
-    antarcticaSurvival.difficulty = 6;
-    antarcticaSurvival.alwaysUnlocked = true;
+    const lavaFlow = new SectorPreset("lavaflow", moon, 1);
+    lavaFlow.captureWave = 30;
+    lavaFlow.localizedName = "Lava Flow";
+    lavaFlow.difficulty = 6;
+    lavaFlow.alwaysUnlocked = true;
 
 
 });
