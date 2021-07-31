@@ -13,22 +13,22 @@ const rogerla = extend(Planet, "rogerla", Planets.sun, 1, 0.5, {
 });
 rogerla.meshLoader = () => extend(HexMesh, rogerla, 6, {});
 
-const lavaflow = extend(SectorPreset, "lavaflow", rogerla, 1, {
+const lavaFlow = extend(SectorPreset, "lavaflow", rogerla, 1, {
     captureWave: 14,
-    localizedName: "lavaflow",
+    localizedName: "lava flow",
     difficulty: 1,
     alwaysUnlocked: true
 });
 
-const corrupted-labyrinth = extend(SectorPreset, "corrupted-labyrinth", rogerla, 27, {
+const corruptedlabyrinth = extend(SectorPreset, "corrupted-labyrinth", rogerla, 27, {
     captureWave: 14,
-    localizedName: "corrupted-labyrinth",
+    localizedName: "corrupted labyrinth",
     difficulty: 1,
     alwaysUnlocked: true
 });
 
 module.exports = {
     rogerla: rogerla,
-    lavaflow: lavaflow,
-	corrupted-labyrinth:corrupted-labyrinth
+    lavaFlow: lavaFlow,
+	corruptedlabyrinth:corruptedlabyrinth
 }
