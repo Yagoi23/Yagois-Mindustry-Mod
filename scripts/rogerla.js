@@ -3,7 +3,7 @@
 const rogerla = extend(Planet, "rogerla", Planets.sun, 1, 0.5, {
     generator: new SerpuloPlanetGenerator(),
     bloom: true,
-    radius: 2,
+    radius: 1,
     accessible: true,
     hasAtmosphere: true,
     atmosphereColor: Color.valueOf("80ff00"),
@@ -22,5 +22,5 @@ const lavaflow = extend(SectorPreset, "lavaflow", rogerla, 1, {
 
 module.exports = {
     rogerla: rogerla,
-    lavaflow: lavaflow,
+    lavaflow: lavaflow
 }
