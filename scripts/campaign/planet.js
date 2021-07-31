@@ -2,7 +2,7 @@ Events.on(ClientLoadEvent, () => {
 
 
 
-    const tontontros = new Planet("tontontros", Planets.serpulo, 1, 0.3);
+    const tontontros = new Planet("tontontros", sun, 1, 0.3);
     tontontros.generator = new TantrosPlanetGenerator();
     tontontros.mesh = new HexMesh(tontontros, 5);
     tontontros.orbitRadius = 3.2;
@@ -12,7 +12,7 @@ Events.on(ClientLoadEvent, () => {
     tontontros.accessible = true;
     tontontros.startSector = 1;
     tontontros.alwaysUnlocked = true;
-    tontontros.localizedName = "Moon";
+    tontontros.localizedName = "Mun";
 
 
 
