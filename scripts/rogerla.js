@@ -11,7 +11,7 @@ const rogerla = extend(Planet, "rogerla", Planets.sun, 1, 0.5, {
     atmosphereRadOut: 0.3,
     localizedName: "Rogerla"
 });
-rogerla.meshLoader = () => extend(HexMesh, rogerla, 6, {});
+rogerla.meshLoader = () => extend(HexMesh, rogerla, 24, {});
 
 const lavaflow = extend(SectorPreset, "lavaflow", rogerla, 1, {
     captureWave: 14,
