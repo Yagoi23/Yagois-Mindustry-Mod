@@ -48,7 +48,7 @@ consumes: {
   power: 2
   items: {
     items: [
-      obsidian-chunk/1
+      obsidian/1
     ]
   }
   liquid: {
