@@ -1,4 +1,4 @@
 name: Obsidian
 type: OreBlock
 playerUnmineable: true
-itemDrop: obsidian
+itemDrop: obsidian-chunk
