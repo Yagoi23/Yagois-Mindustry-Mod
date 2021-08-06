@@ -1,5 +1,10 @@
 name: Obsidian Slurry Separator
 type: Separator
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 120
 
 consumes: {
   power: 2
@@ -16,3 +21,6 @@ results: [
 	obethyst/1, 
 	obiamond/1
 ]
+
+category: crafting
+research: alloy-smelter
