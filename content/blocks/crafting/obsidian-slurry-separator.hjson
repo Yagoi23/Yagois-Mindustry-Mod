@@ -1,2 +1,18 @@
 name: Obsidian Slurry Separator
 type: Separator
+
+consumes: {
+  power: 2
+  liquid: {
+    liquid: obsidian-slurry
+    amount: 0.3
+  }
+}
+
+results: [
+	obsidian/1, 
+	oberald/1, 
+	obuby/1, 
+	obethyst/1, 
+	obiamond/1
+]
