@@ -7,7 +7,7 @@ const multi=multiLib.MultiCrafter(GenericCrafter,GenericCrafter.GenericCrafterBu
     /*default form for each recipes. You can change values.
     {
         input:{
-            items:[oberald/1, obsidian/1],     //Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
+            items:[yagoismod-oberald/1, yagoismod-obsidian/1],     //Modded Item:  "mod-name-item-name/amount", Vanilla Item: "item-name/amount"
             //liquids:[],   //Modded Liquid:  "mod-name-liquid-name/amount",  Vanilla liquid: "liquid-name/amount"
             //power:0,
         },
