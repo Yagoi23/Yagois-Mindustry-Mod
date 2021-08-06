@@ -18,7 +18,7 @@ craftEffect: {
       strokeTo: 1.2
       lenFrom: 8
       lenTo: 0
-      colorTo: e66a6a
+      colorTo: 442525
     }
     {
       type: ParticleEffect
@@ -42,13 +42,13 @@ updateEffect: {
   strokeTo: 0.7
   lenFrom: 4
   lenTo: 0
-  colorTo: e66a6a
+  colorTo: 442525
 }
 consumes: {
   power: 2
   items: {
     items: [
-      obsidian-chunk/1
+      obsidian/1
     ]
   }
   liquid: {
@@ -64,7 +64,5 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-outputItems: [
-	ruby/1
-	emerald/1
-]
+outputItems: polished-obsidian/1
+

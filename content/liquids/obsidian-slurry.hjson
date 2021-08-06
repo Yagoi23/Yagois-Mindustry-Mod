@@ -1,0 +1,9 @@
+name: Obsidian Slurry
+temperature: 1
+flammability: 0
+viscosity: 0.7
+heatCapacity: 0
+explosiveness: 0
+effect: burning
+color: 07030A
+research: obsidian-chunk
