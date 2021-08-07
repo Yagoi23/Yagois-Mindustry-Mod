@@ -61,6 +61,6 @@ requirements: [
   titanium/120
 ]
 category: crafting
-research: melter
+research: obsidian-slurry-separator
 outputItem: polished-obsidian/1
 
