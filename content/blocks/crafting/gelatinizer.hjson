@@ -1,0 +1,27 @@
+name: Gelatinizer
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 10
+
+consumes: {
+  power: 2
+  items: {
+    items: [
+      sand/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.3
+  }
+}
+requirements: [
+  titanium/120
+  metaglass/100
+]
+category: crafting
+research: cryofluid-mixer
+outputItem: cryogel/1
